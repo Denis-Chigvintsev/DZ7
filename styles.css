@@ -8,3 +8,458 @@
   --font-family: "Poppins", sans-serif;
   --second-family: "Playfair Display", sans-serif;
 }
+
+body {
+  background-color: var(--bg);
+}
+.mainContainer {
+  width: 1900px;
+  height: 4600px;
+  background-image: url("./images/BG 1.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+/*.header {
+  height: 1900px;
+}
+*/
+.menu {
+  /* Header */
+
+  width: 1760px;
+  left: 91px;
+  top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+.logo1 {
+  color: rgb(255, 255, 255);
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 1%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.little_menu {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  gap: 40px;
+  position: relative;
+  left: 650px;
+}
+.account {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  left: 1250px;
+}
+.account::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background-image: url("./images/Icon\ -account.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.followUs {
+  writing-mode: vertical-rl;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  top: 360px;
+  left: 77px;
+}
+.instagram {
+  content: "";
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-image: url("./images/instagram.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* transform: rotate(90deg); */
+  position: relative;
+  top: 375px;
+  position: relative;
+  left: 77px;
+}
+.twitter {
+  content: "";
+  display: flex;
+  width: 24px;
+  height: 24px;
+  background-image: url("./images/twitter.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* transform: rotate(90deg); */
+  position: relative;
+  top: 405px;
+  position: relative;
+  left: 77px;
+}
+.littleLine {
+  width: 72px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 170px;
+  left: 570px;
+}
+.hikingGuide {
+  color: rgb(251, 215, 132);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 6px;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+  top: 157px;
+  left: 670px;
+}
+.BePrepared {
+  position: relative;
+  left: 565px;
+  top: 200px;
+  color: rgb(255, 255, 255);
+  font-family: Playfair Display;
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.scrollDown {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  position: relative;
+  left: 565px;
+  top: 250px;
+}
+.scrollDown::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 24px;
+
+  background-image: url("./images/arrow_downward_24px.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.startBar {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: right;
+  position: relative;
+  left: 800px;
+  top: -40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  justify-content: center;
+}
+.l1 {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 240px;
+  font-weight: 700;
+  line-height: 240px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  left: 237px;
+  top: -0px;
+  margin-top: 871px;
+  opacity: 0.1;
+}
+.YellowLine {
+  width: 72px;
+  height: 2px;
+  background-color: rgb(251, 215, 132);
+  border-radius: 50%;
+  position: relative;
+  left: 375px;
+  top: -100px;
+}
+.GetStarted {
+  color: rgb(251, 215, 132);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 6px;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+  left: 470px;
+  top: -115px;
+}
+.LevelOfHiker {
+  color: rgb(255, 255, 255);
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 85px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: relative;
+  text-align: start;
+  width: 555px;
+  left: 371px;
+  top: -50px;
+}
+.Determining {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  width: 650px;
+  left: 371px;
+  top: -27px;
+}
+.readMore {
+  color: rgb(251, 215, 132);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  left: 371px;
+  top: 0px;
+  display: flex;
+}
+.readMore::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 24px;
+
+  background-image: url("./images/arrow_downward_24px.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  transform: rotate(-90deg);
+  display: block;
+  margin-left: 10px;
+}
+.img01 {
+  max-width: 600px;
+  position: relative;
+  top: 850px;
+  left: 200px;
+}
+.img02 {
+  max-width: 600px;
+  position: relative;
+  top: 1600px;
+  left: 200px;
+}
+
+.block_Hiking_Essentials {
+  position: relative;
+  top: 830px;
+  left: -250px;
+}
+.corr1 {
+  width: 670px;
+}
+
+.block_Where_You_Go {
+  position: relative;
+  top: 1500px;
+  left: 0px;
+}
+
+.font_corr1 {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.corr2 {
+  width: 630px;
+}
+.img03 {
+  max-width: 600px;
+  position: relative;
+  top: 2340px;
+  left: 200px;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  position: relative;
+  top: 3000px;
+  left: 200px;
+}
+.f_MNTN {
+  color: rgb(255, 255, 255);
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 1%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.f_1 {
+  display: flex;
+  flex-direction: column;
+}
+.f_Get {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 370px;
+  position: relative;
+  top: 20px;
+}
+.f_Copyright {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  top: 122px;
+}
+.f_2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 580px;
+  gap: 13px;
+}
+.f_More {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.f_About {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.f_Contributors {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.f_Write {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.f_Contact {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.f_Privacy {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.f_3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 760px;
+  gap: 13px;
+}

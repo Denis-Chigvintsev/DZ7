@@ -596,16 +596,17 @@ html {
   border-radius: 0 0 10px 10px;
   width: calc(100%);
   height: 265px;
+  z-index: 5;
 }
 .open {
   position: relative;
-  top: -5502px;
+  top: -50px;
   transition: all 1s;
 }
 
 .close {
   position: relative;
-  top: -5800px;
+  top: -400px;
   transition: all 1s;
 }
 
@@ -622,13 +623,13 @@ html {
   text-transform: capitalize;
   color: #0b1d26;
   margin-left: calc(5%);
-  margin-top: calc(5%);
+  margin-top: 50px;
 }
 .menu_3_cross {
   content: "";
   display: inline-flex;
   width: 37px;
-  height: 37px;
+  height: 40px;
   background-image: url("./images/button_close.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -639,17 +640,23 @@ html {
   margin-top: 50px;
 }
 .empty_space_12 {
-  height: 140px;
+  height: 120px;
 }
 .menu_4 {
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
 }
 .menu_4 > button {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 18px;
+
   color: #354147;
+
+  @media (max-width: 500px) {
+    font-size: 10px;
+  }
 }
 
 .m4_1 {
@@ -660,10 +667,11 @@ html {
 }
 .m4_3 {
   flex: 1;
-  padding-right: 20%;
+  padding-right: 0%;
 }
 .m4_4 {
   flex: 1;
+  padding-right: 5%;
 }
 .m4_4::before {
   content: "";
